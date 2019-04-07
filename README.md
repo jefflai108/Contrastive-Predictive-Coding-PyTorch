@@ -8,5 +8,5 @@ Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf
  <img src="img/CDCK2.png" width="60%">
 </p>
 <p align="center">
- <img src="img/CPC-ivector.png" width="60%">
+ <img src="img/CPC-ivector.png" width="80%">
 </p>
