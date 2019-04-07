@@ -7,3 +7,7 @@ Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf
 <p align="left">
  <img src="img/CDCK2.png" width="40%">
 </p>
+
+<p align="left">
+ <img src="img/CDCK6.png" width="40%">
+</p>
