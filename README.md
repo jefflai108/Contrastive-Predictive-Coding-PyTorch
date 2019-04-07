@@ -4,6 +4,6 @@ This repository contains codes to reproduce the core results for:
 * [Contrastive Predictive Coding Based
 Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf)
 
-<p align="center">
+<p align="left">
  <img src="img/CDCK2.png" width="40%">
 </p>
