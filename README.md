@@ -14,6 +14,10 @@ Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf
 ## Getting Started
 `./src/model/model.py` contains the CPC models implementation, `./src/main.py` is the code for training the CPC models, `./src/spk_class.py` trains a NN speaker classifier, `./ivector/` contains the scripts for running an i-vectors speaker verification system. 
 
+An example of CPC and speaker classifier training can be found at:
+```./run.sh
+```
+
 ## CPC Models
 CDCK2: base model from the paper 'Representation Learning with Contrastive Predictive Coding'.  
 CDCK5: CDCK2 with a different decoder.  
