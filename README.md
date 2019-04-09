@@ -30,6 +30,7 @@ CDCK6: CDCK2 with a shared encoder and double decoders.
 
 ## B. Speaker Verificaiton on LibriSpeech test-clean-100
 Note: [1st trial list](https://drive.google.com/file/d/10h9GH_vi-BRBT_L_xmSM1ZumQ__jRBmx/view) and [2nd trial list](https://drive.google.com/file/d/1FDOU1iNSdGT-IMCQnuuJCWV421168x4H/view)  
+
 |          Feature            |   Feature Dim   |  Summarization  |     LDA Dim     |     1st EER    |    2nd EER     | 
 | :-------------------------: | :-------------: | :------------:  | :-------------: | :------------: | :------------: |
 |           MFCC              |        24       | average pooling |       24        |      9.211     |     13.48      |
@@ -37,7 +38,7 @@ Note: [1st trial list](https://drive.google.com/file/d/10h9GH_vi-BRBT_L_xmSM1Zum
 |           CDCK5             |        40       | average pooling |       40        |      7.508     |     12.25      |
 |           CDCK6             |        256      | average pooling |       200       |      6.809     |     12.73      |
 
-## CPC with PCA 
+## C. CPC with PCA 
 |        Feature w PCA        | Original Feature |     PCA Dim    |  PCA Variance Ratio  |
 | :-------------------------: | :--------------: | :------------: | :------------------: | 
 |          CDCK2-36           |       CDCK2      |       36       |        76.76         |   
