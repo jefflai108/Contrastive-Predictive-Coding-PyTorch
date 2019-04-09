@@ -24,7 +24,7 @@ CDCK2: base model from the paper 'Representation Learning with Contrastive Predi
 CDCK5: CDCK2 with a different decoder.  
 CDCK6: CDCK2 with a shared encoder and double decoders.  
 <p align="center">
- <img src="img/CDCK6.png" width="60%">
+ <img src="img/CDCK6.png" width="70%">
 </p>
 
 # Experimental Results 
