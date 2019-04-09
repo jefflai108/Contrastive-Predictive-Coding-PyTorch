@@ -61,12 +61,12 @@ Note: [1st trial list](https://drive.google.com/file/d/10h9GH_vi-BRBT_L_xmSM1Zum
 |      MFCC + CDCK5-24        |       48        |    i-vectors    |     3.712      |     6.962      |
 |      MFCC + CDCK6-36        |       60        |    i-vectors    |     3.691      |     6.765      |
 
-## E. CPC and MFCC Feature-Levl Fusion i-vectors Speaker Verification DET Curves 
+## E. CPC and MFCC Feature-Levrl Fusion i-vectors Speaker Verification DET Curves 
 <p align="center">
- <img src="img/det_curve_1_trial_list_1.png" width="60%">
+ <img src="img/det_curve_1_trial_list_1.png" width="80%">
 </p>
 <p align="center">
- <img src="img/det_curve_1_trial_list_2.png" width="60%">
+ <img src="img/det_curve_1_trial_list_2.png" width="80%">
 </p>
 
 ## Authors 
