@@ -11,7 +11,7 @@ Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf
  <img src="img/CPC-ivector.png" width="80%">
 </p>
 
-## Getting Started
+# Getting Started
 `./src/model/model.py` contains the CPC models implementation, `./src/main.py` is the code for training the CPC models, `./src/spk_class.py` trains a NN speaker classifier, `./ivector/` contains the scripts for running an i-vectors speaker verification system. 
 
 An example of CPC and speaker classifier training can be found at
