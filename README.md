@@ -28,7 +28,7 @@ CDCK6: CDCK2 with a shared encoder and double decoders.
 |           CDCK5             |        60       |     5.58M      |      1.7818     |      22.48     |
 |           CDCK6             |        30       |     7.33M      |      1.6484     |      28.24     |
 
-## B. Speaker Verificaiton on LibriSpeech test-clean-100
+## B. Speaker Verificaiton on LibriSpeech test-clean-100 - Summarization with Average Pooling 
 Note: [1st trial list](https://drive.google.com/file/d/10h9GH_vi-BRBT_L_xmSM1ZumQ__jRBmx/view) and [2nd trial list](https://drive.google.com/file/d/1FDOU1iNSdGT-IMCQnuuJCWV421168x4H/view)  
 
 |          Feature            |   Feature Dim   |  Summarization  |     LDA Dim     |     1st EER    |    2nd EER     | 
@@ -45,6 +45,18 @@ Note: [1st trial list](https://drive.google.com/file/d/10h9GH_vi-BRBT_L_xmSM1Zum
 |          CDCK2-60           |       CDCK2      |       60       |        87.40         |
 |          CDCK5-24           |       CDCK5      |       24       |        93.39         | 
 
+## D. Speaker Verificaiton on LibriSpeech test-clean-100 - Summarization with i-vectors 
+|          Feature            |   Feature Dim   |  Summarization  |    1st EER     |    2nd EER     | 
+| :-------------------------: | :-------------: | :------------:  | :------------: | :------------: |
+|           MFCC              |       24        |    i-vectors    |     5.518      |     8.157      |
+|         CDCK2-60            |       60        |    i-vectors    |     5.351      |     9.753      |
+|         CDCK5-24            |       24        |    i-vectors    |     4.911      |     8.901      |
+|         CDCK6-60            |       60        |    i-vectors    |     5.228      |     9.009      |
+|      MFCC + CDCK2-36        |       60        |    i-vectors    |     3.62       |     6.898      |
+|      MFCC + CDCK5-24        |       48        |    i-vectors    |     3.712      |     6.962      |
+|      MFCC + CDCK6-36        |       60        |    i-vectors    |     3.691      |     6.765      |
+
+## E. DET Curves 
 
 ## Authors 
 Cheng-I Lai.
