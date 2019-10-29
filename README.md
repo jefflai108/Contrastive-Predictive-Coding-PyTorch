@@ -11,6 +11,16 @@ Feature for Automatic Speaker Verification](https://arxiv.org/pdf/1904.01575.pdf
  <img src="img/CPC-ivector.png" width="80%">
 </p>
 
+If you find the code useful, please cite
+```
+@article{lai2019contrastive,
+  title={Contrastive Predictive Coding Based Feature for Automatic Speaker Verification},
+  author={Lai, Cheng-I},
+  journal={arXiv preprint arXiv:1904.01575},
+  year={2019}
+}
+```
+
 # Getting Started
 `./src/model/model.py` contains the CPC models implementation, `./src/main.py` is the code for training the CPC models, `./src/spk_class.py` trains a NN speaker classifier, `./ivector/` contains the scripts for running an i-vectors speaker verification system. 
 
